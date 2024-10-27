@@ -22,7 +22,10 @@
   > and <OutgoingLink
   href="https://expect-exception.netlify.app/"
   >expect(Exception)</OutgoingLink
->. Vanessa is an experienced public speaker and workshop facilitator, sharing her expertise and passion for technology with diverse audiences. She has contributed to multiple conferences, serving on program committees for notable events like JS Kongress and moderating VueJs Germany.<br
+>. Vanessa is an experienced public speaker and workshop facilitator, sharing her expertise and passion for technology with diverse audiences. She has contributed to multiple conferences, serving on program committees for notable events like JS Kongress and moderating <OutgoingLink
+href="https://conf.vuejs.de/"
+>VueJS Germany</OutgoingLink
+>.<br
       /><br />
       Feel free to send me a message on <OutgoingLink
       href="https://elk.zone/hachyderm.io/@vanessa_otto">Mastodon</OutgoingLink

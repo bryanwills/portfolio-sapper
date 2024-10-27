@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>Vannsl | Engineering Manager & Senior Frontend Developer</title>
+  <title>Vannsl | Senior Frontend Developer & Engineering Manager</title>
 </svelte:head>
 
 <main in:fadeIn out:fadeOut></main>

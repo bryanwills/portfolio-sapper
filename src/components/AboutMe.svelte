@@ -14,26 +14,17 @@
     />
 
     <p class="md:px-4 text-tertiary dark:text-tertiary-light">
-      Hi, nice to meet you!<br />My name is Vanessa. I am a Engineering Manager & Senior Frontend Developer. I
-      have an M.Sc in Media Informatics with a focus on
-      Human-Computer-Interaction. I'm the Head of Frontend at
-      <OutgoingLink
-        href="https://www.zavvy.io/?utm_source=vannsl&amp;utm_medium=referral&amp;utm_campaign=website&amp;utm_content=frontend"
-        >Zavvy</OutgoingLink
-      >. I'm a co-host of the podcasts <OutgoingLink
-        href="https://expect-exception.netlify.app/"
-        >expect(Exception)</OutgoingLink
-      >, <OutgoingLink href="https://www.workingdraft.de"
-        >Working Draft</OutgoingLink
-      >, and <OutgoingLink href="https://ausbaufaehig-podcast.de/"
-        >Ausbaufähig</OutgoingLink
-      >. I'm a public speaker. I was the Chapter Leader for DACH of the <OutgoingLink
-        href="https://www.vuevixens.org/">Frontend Foxes</OutgoingLink
-      > until 2021. I was a member of the JS Kongress Program Committee 2020.<br
+      Vanessa is a Senior Frontend Developer on the Design Systems Team at <OutgoingLink
+      href="https://gitlab.com/vanessaotto"
+      >GitLab</OutgoingLink
+    >, where she focuses on building and maintaining the foundational elements of GitLab's design system. Previously, she was the Head of Frontend at Zavvy.io, which was acquired by Deel in 2024. She holds an M.Sc in Media Informatics with a focus on Human-Computer Interaction and co-hosts two popular podcasts, <OutgoingLink href="https://www.workingdraft.de"
+    >Working Draft</OutgoingLink
+  > and <OutgoingLink
+  href="https://expect-exception.netlify.app/"
+  >expect(Exception)</OutgoingLink
+>. Vanessa is an experienced public speaker and workshop facilitator, sharing her expertise and passion for technology with diverse audiences. She has contributed to multiple conferences, serving on program committees for notable events like JS Kongress and moderating VueJs Germany.<br
       /><br />
       Feel free to send me a message on <OutgoingLink
-        href="https://x.com/vannsl">X</OutgoingLink
-      >, <OutgoingLink
       href="https://elk.zone/hachyderm.io/@vanessa_otto">Mastodon</OutgoingLink
     >, <OutgoingLink
     href="https://www.linkedin.com/in/vannsl/?originalSubdomain=de">LinkedIn</OutgoingLink

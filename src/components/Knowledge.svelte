@@ -9,21 +9,12 @@
   import WideArticle from "./WideArticle.svelte";
   import Tags from "./Tags.svelte";
 
-  const markup = ["HTML5", "CSS3", "Tailwind CSS", "DaisyUI"]
+  const markup = ["HTML", "CSS", "Tailwind CSS"]
   const js = ["ES6", "TypeScript", "Vue.js", "Pinia", "Nuxt.js", "Histoire", "Vite", "Vitest"]
-  const tooling = ["Jest", "Cypress",  "Netlify", "Vercel"]
-  const archive = ["Pug", "Mustache", "Handlebars", "SASS", "BEM", "Bulma",  "Sapper.js", "Puppeteer", "Svelte.js", "web components", "Storybook", "Webpack", "RollUp"]
+  const tooling = ["Jest"]
+  const archive = ["Netlify", "Vercel", "Cypress", "AXE", "Pug", "Mustache", "Handlebars", "SASS", "DaisyUI", "BEM", "Bulma",  "Sapper.js", "Puppeteer", "Svelte.js", "web components", "Storybook", "Webpack", "RollUp"]
 </script>
 
-<Article>
-  <section>
-    <p class="md:text-center text-left text-tertiary dark:text-tertiary-light">
-      The era of the desktop web is over. The era of the mobile web will end
-      soon. The embedded web era will come. Digital products in the web have to
-      be designed and developed for the best user experience. That's what I do.
-    </p>
-  </section>
-</Article>
 <WideArticle>
   <Spacing></Spacing>
   <Grid>
@@ -62,10 +53,11 @@
   <Spacing />
 
   <div class="relative">
+    <h3 class="font-lg uppercase font-bold leading-wide text-center mt-10 mb-2 dark:text-gray-100">Primary Tools</h3>
     <Tags labels={markup} />
     <Tags labels={js} />
     <Tags labels={tooling} />
-    <h3 class="font-lg uppercase font-bold leading-wide text-center mt-10 mb-2 dark:text-gray-100">Archive</h3>
+    <h3 class="font-lg uppercase font-bold leading-wide text-center mt-10 mb-2 dark:text-gray-100">Secondary Tools</h3>
     <div class="text-sm">
       <Tags labels={archive}  />
     </div>

@@ -11,6 +11,10 @@
   import Spacing from "../components/Spacing.svelte";
 
   export let speakingUpcoming = [
+    
+  ];
+
+  export let speakingPast = [
     {
       title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
       event: "Vuejs Amsterdam",
@@ -19,9 +23,6 @@
       date: "29/02/2024",
       emoji: "netherlands",
     },
-  ];
-
-  export let speakingPast = [
     {
       title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js",
       event: "vueday 2023",
@@ -487,12 +488,24 @@
   <Header title="talks" />
   <Spacing />
   <Article>
+    <section class="flex items-center justify-center bg-gray-100 dark:bg-gray-900 py-12 px-4 mb-6">
+      <div class="max-w-sm w-full bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6">
+        <div class="text-center">
+          <h2 class="text-2xl font-semibold text-gray-800 dark:text-gray-200">On Baby Break 👶</h2>
+          <p class="text-gray-600 dark:text-gray-400 mt-4">
+            I'm currently not attending any conferences as I'm on a baby break, focusing on my family during this special time.
+          </p>
+        </div>
+      </div>
+    </section>
+    {#if speakingUpcoming.length > 0}
     <HeadlineTertiary>upcoming</HeadlineTertiary>
     <List>
       {#each speakingUpcoming as item (item.date)}
         <ListItem {item} />
       {/each}
     </List>
+    {/if}
     <details open>
       <summary>
         <h3

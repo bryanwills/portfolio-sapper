@@ -9,6 +9,6 @@
 </script>
 
 <section
-  class="w-full p-10 sm:p-16 md:p-32 lg:p-40 xl:p-64 {background}"
+  class="w-full p-16 md:p-32 lg:p-40 xl:p-64 {background}"
   style="background-image: url('vannsl-{ segment }.{extension}')"
 ></section>

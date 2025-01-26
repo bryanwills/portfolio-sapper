@@ -18,16 +18,21 @@ module.exports = {
         transparent: "hsla(0, 0%, 100%, 0.1)",
       },
       height: {
+        "150-px": "150px",
+        "200-px": "200px",
         "300-px": "300px",
       },
       inset: {
         "1/2": "50%",
       },
       maxWidth: {
+        "150-px": "150px",
+        "200-px": "200px",
         "300-px": "300px",
       },
       minHeight: {
         "700-px": "700px",
+        "800-px": "800px",
       },
       padding: {
         80: "20rem",

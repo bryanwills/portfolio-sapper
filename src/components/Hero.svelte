@@ -26,21 +26,25 @@
 </style>
 
 <header class="w-full h-auto">
-  <div class="clipped w-full h-screen py-32 px-2 bg-gradient-full text-white">
+  <div class="clipped w-full h-screen min-h-800-px py-32 px-2 bg-gradient-full text-white">
     <section in:fadeIn out:fadeOut class="text-center">
       <div
         class="mx-auto mb-10 w-auto border-4 border-solid border-white rounded-sm px-4 inline-block"
       >
-        <span class="text-5xl uppercase font-bold">
+        <span class="text-xl sm:text-5xl uppercase font-bold">
           Who am I
         </span>
       </div>
-      <h1 class="mt-10 text-5xl uppercase tracking-widest font-bold">
+      <div
+        class="sm:my-6 my-2 mx-auto border dark:border-dark rounded-full w-full max-w-150-px sm:max-w-200-px sm:h-200-px h-150-px bg-center bg-cover shadow-md"
+        style="background-image: url('vannsl.jpg')"
+      />
+      <h1 class="mt-5 sm:mt-10 text-3xl sm:text-5xl uppercase tracking-widest font-bold">
         Vanessa Otto
       </h1>
       <p>
-        <span class="text-2xl tracking-wide">Senior Frontend Developer, Public Speaker, Engineering Manager</span><br />
-        <em class="text-2xl">Munich, Germany</em>
+        <span class="text-xl sm:text-2xl tracking-wide">Senior Frontend Developer, Public Speaker, Engineering Manager</span><br />
+        <em class="text-xl sm:text-2xl">Munich, Germany</em>
       </p>
     </section>
   </div>

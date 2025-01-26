@@ -10,9 +10,9 @@
   import Tags from "./Tags.svelte";
 
   const markup = ["HTML", "CSS", "Tailwind CSS"]
-  const js = ["ES6", "TypeScript", "Vue.js", "Pinia", "Nuxt.js", "Histoire", "Vite", "Vitest"]
+  const js = ["JavaScript", "TypeScript", "Vue.js", "Pinia", "Histoire", "Vite", "Vitest"]
   const tooling = ["Jest"]
-  const archive = ["Netlify", "Vercel", "Cypress", "AXE", "Pug", "Mustache", "Handlebars", "SASS", "DaisyUI", "BEM", "Bulma",  "Sapper.js", "Puppeteer", "Svelte.js", "web components", "Storybook", "Webpack", "RollUp"]
+  const archive = ["Netlify", "Vercel", "Cypress", "AXE", "Pug", "Mustache", "Handlebars", "SASS", "DaisyUI", "BEM", "Bulma",  "Sapper.js", "Playwright", "Svelte.js", "Nuxt.js", "Vuex", "web components", "Storybook", "Webpack", "RollUp"]
 </script>
 
 <WideArticle>
